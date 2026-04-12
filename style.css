@@ -260,6 +260,16 @@ background: #242424;
 	display: flex;
 }
 
+.ToolsBlock a {
+	min-width: 420px;
+	background: #404040;
+	border-radius: 30px;
+	height: 120px;
+	padding: 0px;
+	margin-right: 20px;
+	display: flex;
+}
+
 .ToolsBlock:hover {
 	background: #323232;
 }
@@ -283,6 +293,8 @@ background: #242424;
 	margin-top: 40px;
 }
 
+
+
 .footer {
 	position: static;
 	background: #000000;
@@ -303,6 +315,104 @@ background: #242424;
 	text-align: center;
 	display: inline-block;
 	margin-left: 300px;
+}
+
+.search {
+	overflow: hidden;
+	background-color: #4E4E4E;
+	margin: 36px;
+	border-radius: 30px;
+	width: 515px;
+	height: 45px;
+}
+
+.search input[type=text] {
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
+	font-family: Inter;
+
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	border-radius: 10px;
+	margin-left: 39px;
+}
+
+.dropbutton {
+	background-color: #000000;
+	color: white;
+	font-size: 24px;
+	width: 515px;
+	font-family: Do Hyeon;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-right: 200px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #000000;
+	min-width: 360px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: left;
+	margin-left: 20px;
+	font-size: 24px;
+	font-family: Inter;
+	color: white;
+	display: flex;
+}
+
+.dropbutton:hover .dropdown-content {
+	display: block;
+}
+
+.PictureBox {
+	display: flex;
+	float: right;
+	background-color: #000000;
+	width: 836px;
+	height: 436px;
+	border-radius: 30px;
+	margin-left: 100px;
+	margin-top: -100px;
+	margin-right: 50px;
+}
+
+.gamesheet {
+	width: 515px;
+	height: 238px;
+	display: flex;
+	float: left;
+	background-color: #000000;
+	border-radius: 30px;
+	margin-top: 290px;
+	margin-right: -200px;
+}
+
+.search2 {
+	overflow: hidden;
+	display: flex;
+	background-color: #4E4E4E;
+	margin: 36px;
+	margin-left: 900px;
+	border-radius: 30px;
+	width: 836px;
+	height: 166px;
+}
+
+.search2 input[type=text] {
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
+	font-family: Inter;
+
 }
 
 @media  (max-width: 1700px) {
