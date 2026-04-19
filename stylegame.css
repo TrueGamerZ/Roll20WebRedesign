@@ -1,0 +1,556 @@
+.search {
+	overflow: hidden;
+	background-color: #4E4E4E;
+	margin: 36px;
+	border-radius: 30px;
+	width: 515px;
+	height: 45px;
+}
+
+.search input[type=text] {
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
+	font-family: Inter;
+
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	border-radius: 10px;
+	margin-left: 39px;
+}
+
+.dropbutton {
+	background-color: #000000;
+	color: white;
+	font-size: 24px;
+	width: 515px;
+	font-family: Do Hyeon;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 200px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #000000;
+	min-width: 360px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: left;
+	margin-left: 20px;
+	font-size: 24px;
+	font-family: Inter;
+	color: white;
+	display: flex;
+}
+
+.dropbutton:hover .dropdown-content {
+	display: block;
+}
+
+.PictureBox {
+	display: flex;
+	float: right;
+	background-color: #000000;
+	width: 836px;
+	height: 436px;
+	border-radius: 30px;
+	margin-left: 100px;
+	margin-top: -100px;
+	margin-right: 50px;
+}
+
+.PictureBox p {
+	text-align: center;
+	font-family: Sansation;
+	color: #757575;
+	font-size: 20px;
+	margin-left: 330px;
+	margin-top: 150px;
+	width: 200px;
+}
+
+.uploadfilebutton {
+	width: 276px;
+	height: 53px;
+	background-color: #DE058C;
+	border-radius: 19px;
+	margin-left: -235px;
+	margin-top: 300px;
+	display: block;
+}
+
+.uploadfilebutton h3 {
+		text-align: center;
+	font-family: Sansation;
+	color: white;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.gamesheet {
+	width: 515px;
+	height: 238px;
+	display: flex;
+	float: left;
+	background-color: #000000;
+	border-radius: 30px;
+	margin-top: -200px;
+	margin-right: -200px;
+}
+
+.gamesheetbox {
+	display: block;
+	margin-top: 	50px;
+	width: 	64px;
+	height: 64px;
+}
+
+.gamesheet	h3 {
+	text-align: left;
+	font-family: Sansation;
+	color: #757575;
+	font-size: 20px;
+	margin-top: 20px;
+	width: 	500px;
+
+}
+.gamesheet	p {
+	text-align: left;
+	font-family: Sansation;
+	color: white;
+	font-size: 16px;
+
+
+}
+
+
+.search2 {
+	overflow: hidden;
+	display: flex;
+	background-color: #4E4E4E;
+	margin: 36px;
+	margin-left: 890px;
+	border-radius: 30px;
+	width: 825px;
+	height: 166px;
+}
+
+.search2 input[type=text] {
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
+	font-family: Inter;
+
+}
+
+.creategame {
+	margin-left: 575px;
+	margin-top: -30px;
+}
+
+.Premade {
+		padding: 39px 0 60px;
+	margin-left: 30px;
+}
+
+.search3 {
+	overflow: hidden;
+	background-color: #4E4E4E;
+	border-radius: 30px;
+	width: 730px;
+	height: 40px;
+	margin-top: -100px;
+	padding-top: -100px;
+	margin-left: 890px;
+}
+
+.search3 input[type=text] {
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
+	font-family: Inter;
+
+}
+
+.PremadeGrid {
+	display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 28px;
+    padding-top: 39px;
+}
+
+.PremadeIcon {
+	height: 227px;
+	width: 227px;
+	border-radius: 30px;
+	background: black;
+}
+
+@media (max-width: 510px) {
+	.search {
+		width: 	450px;
+		margin-left: 10px;
+	}
+	.dropbutton {
+		width: 	450px;
+		margin-left: -25px;
+	}
+	.gamesheet {
+		width: 	450px;
+		margin-left: -10px;
+	}
+}
+
+@media	(max-width: 1780px) {
+	.search2 {
+		margin-left: 	870px;
+	}
+	.creategame	{
+		margin-left: 	555px;
+	}
+	.PremadeGrid	{
+		grid-template-columns: repeat(6, 1fr);
+	}
+}
+@media	(max-width: 1750px) {
+	.search2 {
+		margin-left: 	850px;
+	}
+	.creategame	{
+		margin-left: 	535px;
+	}
+}
+@media	(max-width: 1720px) {
+	.search2 {
+		margin-left: 	820px;
+	}
+	.creategame	{
+		margin-left: 	505px;
+	}
+}
+@media	(max-width: 1700px) {
+	.search2 {
+		margin-left: 	790px;
+	}
+	.creategame	{
+		margin-left: 	475px;
+	}
+}
+@media	(max-width: 1660px) {
+	.search2 {
+		margin-left: 	750px;
+	}
+	.creategame	{
+		margin-left: 	435px;
+	}
+	.search3 {
+		margin-left: 	750px;
+	}
+}
+@media	(max-width: 1610px) {
+	.search2 {
+		margin-left: 	710px;
+	}
+	.creategame	{
+		margin-left: 	385px;
+	}
+}
+@media	(max-width: 1580px) {
+	.search2 {
+		margin-left: 	660px;
+	}
+	.creategame	{
+		margin-left: 	345px;
+	}
+		.PremadeGrid	{
+		grid-template-columns: repeat(5, 1fr);
+	}
+}
+@media	(max-width: 1530px) {
+	.search2 {
+		margin-left: 	590px;
+	}
+	.creategame	{
+		margin-left: 	275px;
+	}
+	.search3 {
+		margin-left: 	590px;
+	}
+}
+@media	(max-width: 1470px) {
+	.search2 {
+		margin-left: 	530px;
+	}
+	.creategame	{
+		margin-left: 	215px;
+	}
+	.search3 {
+		margin-left: 	590px;
+	}
+	.PictureBox	{
+		margin-right: 	30px;
+	}
+}
+@media	(max-width: 1420px) {
+	.gamesheet	{
+		margin-top: 20px;
+	}
+	.dropdown	{
+		margin-top: 	800px;
+	}
+	.search2 {
+		margin-left: 	5px;
+		margin-top: -300px;
+	}
+	.creategame	{
+		margin-left: 	5px;
+	}
+	.search3 {
+		margin-left: 	590px;
+	}
+	.PictureBox	{
+		margin-top: -800px;
+		margin-right: 	490px;
+		margin-left: 	-0px;
+
+	}
+}
+@media	(max-width: 1370px) {
+	.gamesheet	{
+		margin-top: 20px;
+	}
+	.dropdown	{
+		margin-top: 	800px;
+	}
+	.search2 {
+		margin-left: 	5px;
+		margin-top: -300px;
+	}
+	.creategame	{
+		margin-left: 	5px;
+	}
+	.search3 {
+		margin-top: 10px;
+		margin-left: 	5px;
+	}
+	.PictureBox	{
+		margin-top: -800px;
+		margin-right: 	490px;
+		margin-left: 	-0px;
+
+	}
+}
+@media	(max-width: 1290px) {
+	.gamesheet	{
+		margin-top: 20px;
+	}
+	.dropdown	{
+		margin-top: 	800px;
+	}
+	.search2 {
+		margin-left: 	5px;
+		margin-top: -300px;
+	}
+	.creategame	{
+		margin-left: 	5px;
+	}
+	.search3 {
+		margin-top: 10px;
+		margin-left: 	5px;
+	}
+	.PictureBox	{
+		margin-top: -800px;
+		margin-right: 	490px;
+		margin-left: 	-0px;
+
+	}
+	.PremadeGrid	{
+		grid-template-columns: repeat(4, 1fr);
+	}	
+}
+@media	(max-width: 1030px) {
+	.gamesheet	{
+		margin-top: 20px;
+	}
+	.dropdown	{
+		margin-top: 	800px;
+	}
+	.search2 {
+		margin-left: 	5px;
+		margin-top: -300px;
+	}
+	.creategame	{
+		margin-left: 	5px;
+	}
+	.search3 {
+		margin-top: 10px;
+		margin-left: 	5px;
+	}
+	.PictureBox	{
+		margin-top: -800px;
+		margin-right: 	490px;
+		margin-left: 	-0px;
+
+	}
+	.PremadeGrid	{
+		grid-template-columns: repeat(3, 1fr);
+	}	
+}
+@media	(max-width: 890px) {
+	.gamesheet	{
+		margin-top: 20px;
+	}
+	.dropdown	{
+		margin-top: 	700px;
+	}
+	.search2 {
+		margin-left: 	-80px;
+		margin-top: -400px;
+		scale: 	.8;
+	}
+	.creategame	{
+		margin-left: 	-80px;
+		scale: 	.8;
+	}
+	.search3 {
+		margin-top: 10px;
+		margin-left: 	5px;
+	}
+	.PictureBox	{
+		margin-top: -800px;
+		margin-right: 	600px;
+		margin-left: 	-80px;
+		scale: 	.8;
+
+	}
+	.PremadeGrid	{
+		grid-template-columns: repeat(3, 1fr);
+	}	
+}
+@media	(max-width: 730px) {
+	.gamesheet	{
+		margin-top: 20px;
+	}
+	.dropdown	{
+		margin-top: 	600px;
+	}
+	.search2 {
+		margin-left: 	-160px;
+		margin-top: -400px;
+		scale: 	.6;
+	}
+	.creategame	{
+		margin-left: 	-160px;
+		margin-top: -70px;
+		scale: 	.6;
+	}
+	.search3 {
+		margin-top: 10px;
+		margin-left: 	5px;
+		width: 	600px;
+	}
+	.PictureBox	{
+		margin-top: -750px;
+		margin-right: 	600px;
+		margin-left: 	-160px;
+		scale: 	.6;
+
+	}
+	.PremadeGrid	{
+		grid-template-columns: repeat(2, 1fr);
+	}	
+}
+@media	(max-width: 570px) {
+	.gamesheet	{
+		margin-top: 20px;
+		width: 	450px;
+	}
+	.dropdown	{
+		margin-top: 	600px;
+	}
+	.search2 {
+		margin-left: 	-180px;
+		margin-top: -400px;
+		scale: 	.6;
+	}
+	.creategame	{
+		margin-left: 	-180px;
+		margin-top: -70px;
+		scale: 	.6;
+	}
+	.search3 {
+		margin-top: 10px;
+		margin-left: 	5px;
+		width: 	600px;
+	}
+	.PictureBox	{
+		margin-top: -750px;
+		margin-right: 	600px;
+		margin-left: 	-180px;
+		scale: 	.6;
+
+	}
+	.PremadeGrid	{
+		grid-template-columns: repeat(2, 1fr);
+		}
+			.search {
+		width: 	450px;
+	}
+		.dropbutton {
+		width: 	450px;
+		margin-left: 	5px;
+	}
+	
+}
+@media	(max-width: 502px) {
+	.gamesheet	{
+		margin-top: 20px;
+		width: 	450px;
+	}
+	.dropdown	{
+		margin-top: 	600px;
+	}
+	.search2 {
+		margin-left: 	-200px;
+		margin-top: -400px;
+		scale: 	.6;
+	}
+	.creategame	{
+		margin-left: 	-200px;
+		margin-top: -70px;
+		scale: 	.6;
+	}
+	.search3 {
+		margin-top: 10px;
+		margin-left: 	5px;
+		width: 	420px;
+	}
+	.PictureBox	{
+		margin-top: -750px;
+		margin-right: 	600px;
+		margin-left: 	-200px;
+		scale: 	.6;
+
+	}
+	.PremadeGrid	{
+		grid-template-columns: repeat(2, 1fr);
+		scale: .9;
+		}
+			.search {
+		width: 	450px;
+	}
+		.dropbutton {
+		width: 	450px;
+		margin-left: 	0px;
+		margin-right: 	15PX;
+	}
+	
+}
