@@ -1,0 +1,159 @@
+.search {
+	overflow: hidden;
+	background-color: #4E4E4E;
+	margin: 36px;
+	border-radius: 30px;
+	width: 1720px;
+	height: 45px;
+}
+
+.search input[type=text] {
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
+	font-family: Inter;
+
+}
+
+.Market {
+		padding: 39px 0 60px;
+	margin-left: 12px;
+}
+.MarketGrid {
+	display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    padding-top: 0px;
+}
+
+.MarketIcon {
+	height: 227px;
+	width: 227px;
+	border-radius: 30px;
+	background: black;
+}
+
+@media (max-width: 1776px) {
+	.search {
+		width: 1650px;
+	}
+}
+@media (max-width: 1693px) {
+	.search {
+		width: 1550px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(6, 1fr);
+	}
+}
+@media (max-width: 1605px) {
+	.search {
+		width: 1450px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(6, 1fr);
+	}
+}
+@media (max-width: 1503px) {
+	.search {
+		width: 1350px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}
+@media (max-width: 1408px) {
+	.search {
+		width: 1250px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}
+@media (max-width: 1310px) {
+	.search {
+		width: 1150px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+@media (max-width: 1210px) {
+	.search {
+		width: 1050px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+@media (max-width: 1108px) {
+	.search {
+		width: 950px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+@media (max-width: 1006px) {
+	.search {
+		width: 850px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media (max-width: 910px) {
+	.search {
+		width: 850px;
+		margin-left: 15px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media (max-width: 887px) {
+	.search {
+		width: 750px;
+		margin-left: 15px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media (max-width: 787px) {
+	.search {
+		width: 650px;
+		margin-left: 15px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (max-width: 687px) {
+	.search {
+		width: 550px;
+		margin-left: 15px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (max-width: 587px) {
+	.search {
+		width: 450px;
+		margin-left: 15px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (max-width: 502px) {
+	.search {
+		width: 450px;
+		margin-left: 15px;
+	}
+	.MarketGrid {
+		grid-template-columns: repeat(2, 1fr);
+		margin-left: -5px;
+	}
+}
