@@ -5,7 +5,7 @@
 	border-radius: 30px;
 	width: 1720px;
 	height: 45px;
-}
+	}
 
 .search input[type=text] {
 	float: left;
@@ -13,25 +13,25 @@
 	font-size: 36px;
 	font-family: Inter;
 
-}
+	}
 
 .Market {
 		padding: 39px 0 60px;
 	margin-left: 12px;
-}
+	}
 .MarketGrid {
 	display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 20px;
     padding-top: 0px;
-}
+	}
 
 .MarketIcon {
 	height: 227px;
 	width: 227px;
 	border-radius: 30px;
 	background: black;
-}
+	}
 
 @media (max-width: 1776px) {
 	.search {
