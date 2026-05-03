@@ -215,6 +215,10 @@
 	background: black;
 	}
 
+.PremadeIcon:hover {
+	scale: 105%
+	}
+
 @media (max-width: 510px) {
 	.search {
 		width: 	450px;
