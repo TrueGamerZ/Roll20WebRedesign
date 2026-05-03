@@ -5,7 +5,7 @@
 	border-radius: 30px;
 	width: 515px;
 	height: 45px;
-}
+	}
 
 .search input[type=text] {
 	float: left;
@@ -13,14 +13,14 @@
 	font-size: 36px;
 	font-family: Inter;
 
-}
+	}
 
 .dropdown {
 	position: relative;
 	display: inline-block;
 	border-radius: 10px;
 	margin-left: 39px;
-}
+	}
 
 .dropbutton {
 	background-color: #000000;
@@ -32,7 +32,7 @@
 	padding: 5px;
 	margin-top: 10px;
 	margin-right: 200px;
-}
+	}
 
 .dropdown-content {
 	display: none;
@@ -40,7 +40,7 @@
 	background-color: #000000;
 	min-width: 360px;
 	z-index: 1;
-}
+	}
 
 .dropdown-content a {
 	float: left;
@@ -49,11 +49,11 @@
 	font-family: Inter;
 	color: white;
 	display: flex;
-}
+	}
 
 .dropbutton:hover .dropdown-content {
 	display: block;
-}
+	}
 
 .PictureBox {
 	display: flex;
@@ -65,7 +65,7 @@
 	margin-left: 100px;
 	margin-top: -100px;
 	margin-right: 50px;
-}
+	}
 
 .PictureBox p {
 	text-align: center;
@@ -75,7 +75,7 @@
 	margin-left: 330px;
 	margin-top: 150px;
 	width: 200px;
-}
+	}
 
 .uploadfilebutton {
 	width: 276px;
@@ -85,7 +85,7 @@
 	margin-left: -235px;
 	margin-top: 300px;
 	display: block;
-}
+	}
 
 .uploadfilebutton h3 {
 		text-align: center;
@@ -93,11 +93,11 @@
 	color: white;
 	font-size: 24px;
 	margin-top: 10px;
-}
+	}
 
 .uploadfilebutton:hover {
 	scale: 105%;
-}
+	}
 
 .gamesheet {
 	width: 515px;
@@ -108,14 +108,14 @@
 	border-radius: 30px;
 	margin-top: -200px;
 	margin-right: -200px;
-}
+	}
 
 .gamesheetbox {
 	display: block;
 	margin-top: 	50px;
 	width: 	64px;
 	height: 64px;
-}
+	}
 
 .gamesheet	h3 {
 	text-align: left;
@@ -125,7 +125,7 @@
 	margin-top: 20px;
 	width: 	500px;
 
-}
+	}
 .gamesheet	p {
 	text-align: left;
 	font-family: Sansation;
@@ -133,7 +133,7 @@
 	font-size: 16px;
 
 
-}
+	}
 
 
 .search2 {
@@ -145,7 +145,7 @@
 	border-radius: 30px;
 	width: 825px;
 	height: 166px;
-}
+	}
 
 .search2 input[type=text] {
 	float: left;
@@ -153,7 +153,7 @@
 	font-size: 36px;
 	font-family: Inter;
 
-}
+	}
 
 .creategame {
 		width: 838px;
@@ -163,7 +163,7 @@
 	display: block;
 	margin-left: 890px;
 	margin-top: -30px;
-}
+	}
 
 .creategame h3 {
 		text-align: center;
@@ -171,16 +171,16 @@
 	color: white;
 	font-size: 24px;
 	padding-top: 12px;
-}
+	}
 
 .creategame:hover {
 	scale: 105%;
-}
+	}
 
 .Premade {
 		padding: 39px 0 60px;
 	margin-left: 30px;
-}
+	}
 
 .search3 {
 	overflow: hidden;
@@ -191,7 +191,7 @@
 	margin-top: -100px;
 	padding-top: -100px;
 	margin-left: 890px;
-}
+	}
 
 .search3 input[type=text] {
 	float: left;
@@ -199,21 +199,21 @@
 	font-size: 36px;
 	font-family: Inter;
 
-}
+	}
 
 .PremadeGrid {
 	display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 28px;
     padding-top: 39px;
-}
+	}
 
 .PremadeIcon {
 	height: 227px;
 	width: 227px;
 	border-radius: 30px;
 	background: black;
-}
+	}
 
 @media (max-width: 510px) {
 	.search {
