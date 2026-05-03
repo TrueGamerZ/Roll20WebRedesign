@@ -33,6 +33,10 @@
 	background: black;
 	}
 
+.MarketIcon:hover {
+	scale: 105%
+	}
+
 @media (max-width: 1776px) {
 	.search {
 		width: 1650px;
